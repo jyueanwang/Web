@@ -28,17 +28,36 @@ th {
   background-color: #2e9cd7;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 div.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 200;
 }
-div.container div.box1 {
+
+div {
+  width: 100px;
+}
+
+div.box1 {
   background-color: midnightblue;
+  height: 20px;
+  width: 33%;
 }
-div.container div.box2 {
+
+div.box2 {
   background-color: green;
+  height: 20px;
+  width: 33%;
 }
-div.container div.box3 {
+
+div.box3 {
   background-color: pink;
+  height: 20px;
+  width: 33%;
 }/*# sourceMappingURL=style.css.map */
